@@ -1,0 +1,240 @@
+body {
+    background-color: rgb(247, 245, 245);
+    padding: 0px 0px;
+    margin: 0px 0px;
+    font-family: Cambria;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+
+.content .background__img {
+    position: absolute;
+    top: 180px;
+    left: 450px;
+}
+
+.content .background__img img {
+    width: 450px;
+    height: 400px;
+    padding: 0px;
+    box-shadow: 3px 3px 10px gray;
+    border-radius: 4px;
+}
+
+.content .form {
+    position: absolute;
+    background-color: white;
+    top: 230px;
+    left: 700px;
+    box-shadow: 1px 1px 15px gray;
+    border-radius: 6px;
+}
+
+.content .form form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    font-family: Cambria;
+}
+
+.content .form form p {
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.content .form form input {
+    border-top: 0px solid black;
+    border-left: 0px solid black;
+    border-right: 0px solid black;
+    border-bottom: 1px solid rgb(15, 167, 15);
+    padding: 10px 2px 7px 4px;
+    margin: 10px 0px;
+    margin-top: 15px;
+    outline: none;
+    width: 270px;
+    font-size: 18px;
+    font-family: Cambria;
+}
+
+.content .form form #btn-top {
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    padding: 7px 0px;
+    margin: 10px 0px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Cambria;
+}
+
+.content .form form #btn-bottom {
+    border: 1px solid rgb(53, 135, 187);
+    background-color: white;
+    color: rgb(53, 135, 187);
+    padding: 7px 0px;
+    margin: 5px 0px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+#title {
+    border: 2px solid rgb(61, 124, 196);
+    border-left: 10px solid rgb(61, 124, 196);
+    border-right: 10px solid rgb(61, 124, 196);
+    text-align: center;
+    padding: 7px 0px;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0px 40px 0px;
+}
+
+.manager__student form table {
+    font-size: 17px;
+}
+
+.manager__student form table tr label {
+    font-weight: bold;
+    color: #333;
+    margin-right: 30px;
+}
+
+.manager__student form table tr input {
+    border: 1px solid green;
+    outline: none;
+    width: 288px;
+    height: 35px;
+    padding: 6px 10px;
+    margin: 7px 0px;
+}
+
+.manager__student form table tr input[type="radio"] {
+    width: 15px;
+    height: 15px;
+    margin: 5px 25px 10px 5px;
+}
+
+.manager__student form table tr #gender-input {
+    display: flex;
+    margin-top: 10px;
+}
+
+.manager__student form table tr #gender-input label {
+    font-weight: normal;
+    margin-right: 0px;
+}
+
+.manager__student form table tr span {
+    display: flex;
+    align-items: center;
+}
+
+.manager__student form table tr textarea {
+    outline: none;
+    margin-top: 7px;
+}
+
+.manager__student form table tr button {
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+    padding: 7px 10px;
+    font-weight: bold;
+    width: 100px;
+    color: white;
+    margin: 30px 5px;
+    text-align: center;
+}
+
+.manager__student form table tr #add-btn {
+    border: 1px solid rgb(46, 115, 204);
+    background-color: rgb(46, 115, 204);
+}
+
+.manager__student form table tr #find-btn {
+    border: 1px solid rgb(250, 113, 1);
+    background-color: rgb(253, 118, 8);
+}
+
+.manager__student form table tr #delete-btn {
+    border: 1px solid red;
+    background-color: red;
+}
+
+.manager__student form table tr #edit-btn {
+    border: 1px solid rgb(5, 187, 5);
+    background-color: rgb(9, 197, 50);
+}
+
+.manager__student #list-student table {
+    border: 1px solid rgb(61, 124, 196);
+    margin-top: 7px;
+}
+
+.manager__student #list-student table tr {
+    padding-top: 15px;
+}
+
+.manager__student #list-student table tr th {
+    text-align: center;
+    padding: 7px 8px;
+    background-color: rgb(61, 124, 196);
+    color: white;
+}
+
+.manager__student #list-student table tr td {
+    padding: 10px 7px;
+}
+
+.style {
+    text-align: center;
+}
+
+.style1:hover {
+    background-color: rgb(235, 244, 255);
+}
+
+.style2 {
+    font-weight: bold;
+    color: rgb(44, 112, 201);
+}
+
+#all-students {
+    display: block;
+    width: 155px;
+    text-decoration: none;
+    border: 2px solid rgb(61, 124, 196);
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+    color: rgb(61, 124, 196);
+    margin-bottom: 10px;
+}
+
+#total__sv {
+    border: 2px solid rgb(61, 124, 196);
+    width: 170px;
+    padding: 5px 10px 5px 10px;
+    margin-top: 10px;
+}
